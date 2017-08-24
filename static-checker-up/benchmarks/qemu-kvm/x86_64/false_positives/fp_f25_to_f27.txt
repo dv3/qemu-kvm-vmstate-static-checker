@@ -1,0 +1,12 @@
+Section "e1000e" Description "PCIEDevice" Field "config" size mismatch: 4096 , 256
+Section "vfio-amd-xgbe" does not exist in dest
+Section "vfio-calxeda-xgmac" does not exist in dest
+Section "pvscsi": Description "PCIEDevice" missing, got "PCIDevice" instead; skipping
+Section "nec-usb-xhci" Description "PCIEDevice" Field "config" size mismatch: 4096 , 256
+Section "megasas-gen2": Description "PCIEDevice" missing, got "PCIDevice" instead; skipping
+Section "xio3130-downstream" Description "PCIEDevice" Field "config" size mismatch: 4096 , 256
+Section "ioh3420" Description "PCIEDevice" Field "config" size mismatch: 4096 , 256
+Section "x3130-upstream" Description "PCIEDevice" Field "config" size mismatch: 4096 , 256
+Section "vmxnet3" Description "vmxnet3" Field "txq_descr" size mismatch: 176 , 144
+Section "vmxnet3" Description "vmxnet3" Field "rxq_descr" size mismatch: 216 , 168
+Section "vmxnet3": Description "PCIEDevice" missing, got "PCIDevice" instead; skipping

@@ -1,0 +1,18 @@
+Section "virtio-gpu-device", Description "virtio-gpu": expected field "virtio-gpu", while dest has no further fields
+Section "e1000e" Description "PCIDevice" Field "config" size mismatch: 256 , 4096
+Section "intel-iommu" Description "iommu-intel": Entry "Fields" missing
+Section "or-irq" does not exist in dest
+Section "vhost-user-scsi" does not exist in dest
+Section "pvscsi": Description "PCIDevice" missing, got "PCIEDevice" instead; skipping
+Section "amd-iommu" does not exist in dest
+Section "nec-usb-xhci" Description "PCIDevice" Field "config" size mismatch: 256 , 4096
+Section "megasas-gen2": Description "PCIDevice" missing, got "PCIEDevice" instead; skipping
+Section "xio3130-downstream" Description "PCIDevice" Field "config" size mismatch: 256 , 4096
+Section "ioh3420" Description "PCIDevice" Field "config" size mismatch: 256 , 4096
+Section "virtio-crypto-device" does not exist in dest
+Section "kvmclock" Description "kvmclock": Entry "Subsections" missing
+Section "x3130-upstream" Description "PCIDevice" Field "config" size mismatch: 256 , 4096
+Section "vmxnet3", Description "vmxnet3", Field "txq_descr": missing description
+Section "vmxnet3", Description "vmxnet3", Field "rxq_descr": missing description
+Section "vmxnet3", Description "vmxnet3", Field "interrupt_states": missing description
+Section "vmxnet3": Description "PCIDevice" missing, got "PCIEDevice" instead; skipping
